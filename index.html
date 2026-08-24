@@ -11,6 +11,17 @@
     <meta property="og:locale" content="pt_BR">
     <title>Paulo Guarani | Uma história de luta</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      /* Ajustes da fotografia e dos cards das bandeiras */
+      .portrait-frame { position: relative; overflow: hidden; }
+      .portrait-image { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
+      .flag-card { display: flex; flex-direction: column; }
+      .flag-card h3 { flex: 0 0 auto; }
+      .flag-card p { flex: 0 0 auto; }
+      .flag-card a,
+      .flag-card-wide a { position: static !important; display: inline-flex; align-items: center; gap: 7px; align-self: flex-start; margin-top: auto !important; padding-top: 24px; }
+      .flag-card-wide a { color: #d8b873; }
+    </style>
 </head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -35,7 +46,7 @@
       <div class="hero-actions"><a class="btn btn-primary" href="#bandeiras">As cinco bandeiras</a><a class="btn btn-outline" href="#trajetoria">A trajetória</a></div>
     </div>
     <div class="hero-portrait" aria-label="Fotografia de Paulo Guarani">
-      <div class="portrait-frame"><img class="portrait-image" src="images/paulo-guarani.jpg" alt="Paulo Guarani sorrindo, em fotografia de retrato ao ar livre"><div class="portrait-caption">PAULO GUARANI</div></div>
+      <div class="portrait-frame"><img class="portrait-image" src="paulo-guarani.jpeg" alt="Paulo Guarani sorrindo, em fotografia de retrato ao ar livre"><div class="portrait-caption">PAULO GUARANI</div></div>
     </div>
   </div>
   <div class="hero-bottom" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -51,7 +62,7 @@
       <article class="flag-card"><span class="flag-number">02</span><h3>Fundação Estadual Anti-Homofobia</h3><p>Proposta direcionada ao enfrentamento da homofobia, à proteção e ao acolhimento de vítimas e famílias.</p><a href="#propostas">Detalhar proposta <span aria-hidden="true">→</span></a></article>
       <article class="flag-card"><span class="flag-number">03</span><h3>Fundação Memórias dos Cárceres de Minas</h3><p>Proposta relacionada à memória dos cárceres, ao sistema penal e ao amparo de familiares e entes queridos.</p><a href="#propostas">Detalhar proposta <span aria-hidden="true">→</span></a></article>
       <article class="flag-card"><span class="flag-number">04</span><h3>Endurecimento Penal</h3><p>Posição de defesa de respostas penais mais severas para determinados crimes, conforme formulações apresentadas pelo candidato.</p><a href="#propostas">Detalhar proposta <span aria-hidden="true">→</span></a></article>
-      <article class="flag-card flag-card-wide"><span class="flag-number">05</span><h3>Soberania Popular — Parlamento do Povo</h3><p>Defesa da participação popular e da aproximação entre cidadão e Parlamento por meio do conceito de Parlamento do Povo.</p><a style="position:static; display:inline-flex; margin-top:24px;" href="#propostas">Detalhar proposta <span aria-hidden="true">→</span></a></article>
+      <article class="flag-card flag-card-wide"><span class="flag-number">05</span><h3>Soberania Popular — Parlamento do Povo</h3><p>Defesa da participação popular e da aproximação entre cidadão e Parlamento por meio do conceito de Parlamento do Povo.</p><a href="#propostas">Detalhar proposta <span aria-hidden="true">→</span></a></article>
     </div>
   </div>
 </section>
